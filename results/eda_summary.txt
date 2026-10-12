@@ -1,0 +1,30 @@
+Electricity Demand Dataset Summary
+==================================
+Shape: (12984, 5)
+Time range: 2024-01-01 00:00:00 to 2025-06-24 23:00:00
+Duplicate timestamps: 0
+Non-hourly intervals: 0
+
+Missing values:
+- Timestamp: 0
+- Demand (MW): 0
+- Wind (MW): 0
+- Solar (MW): 0
+- Total Generation (MW): 0
+
+Basic statistics:
+         Demand (MW)     Wind (MW)    Solar (MW)
+count   12984.000000  12984.000000  12984.000000
+mean   194009.985296   8894.013296  15623.687600
+std     20227.713344   5741.510590  19808.192511
+min     97065.280000    636.000000    -69.760000
+25%    183704.857500   4438.697500    102.647500
+50%    196988.745000   7498.965000   1776.245000
+75%    208060.527500  11973.012500  33409.710000
+max    248688.240000  29304.950000  64701.190000
+
+Correlations:
+             Demand (MW)  Wind (MW)  Solar (MW)
+Demand (MW)     1.000000   0.141286    0.469817
+Wind (MW)       0.141286   1.000000   -0.198695
+Solar (MW)      0.469817  -0.198695    1.000000
